@@ -4,6 +4,7 @@ int ingresoEntero();
 float ingresoReal();
 void mostrarEntero(int);
 void mostrarReal(float);
+void saludo();
 
 int main(void) {
 
@@ -34,6 +35,9 @@ void mostrarReal(float a){
   printf("\nEl numero es:%f",a);
 }
 
+void saludo(){
+  printf("HOLA MUNDO!!!");
+}
 
 
 //By Sergio Chavez
